@@ -12,7 +12,7 @@ const OUT = "/output/entry.txt";
 // stays tight. No Monday-morning or photocopier stock lines.
 const SETUP = "Our standup rule is to raise blockers early, ";
 const PUNCHLINE =
-  "so Dave raised his in the spring of 2019 and has been 'waiting on legal' ever since.";
+  "so Dave raised his in the spring of 2019; legal has been 'reviewing it' ever since.";
 const LINE = SETUP + PUNCHLINE;
 
 mkdirSync(dirname(OUT), { recursive: true });
